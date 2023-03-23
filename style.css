@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.margin{
+    margin-top: 100px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+   
+}
+.logo img{
+    width: 170px;
+    height: 30px;
+    align-items: center;
+}
+
+.nav ul{
+    display: flex;
+}
+.nav .bars{
+    display: none;
+}
+ul li a{
+    padding:10px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #707070;
+}
+.icons{
+    padding-left: 40px;
+}
+.icons i{
+    padding: 0px 8px;
+}
+
+ul li a:hover ,.active{
+  color: #704707;
+}
+.banner{
+    background: url('images/Banner.jpg') no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner-data{
+    width: 80%;
+}
+.banner-data h1{
+    font-size: 50px;
+    font-family:Ramaraja;
+    font-style:Regular;
+    color: #ffffff;
+    text-shadow: 2px 5px 6px #70470799;
+    margin-bottom: 15px;
+
+}
+.banner-data p{
+    width: 560px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #3E3E3E;
+    margin-bottom: 10px;
+}
+.banner-data button{
+    padding:10px 30px 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #492214;
+     border: 1px solid #492214;
+     border-radius: 5px;
+     background: #E8D2C1;
+     margin: 20px 0px;
+}
+button:hover{
+    color: #fff;
+    background-color:#492214 ;
+}
+.logos img{
+    width: 100%;
+}
+.About-img{
+   width: auto;
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.About-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 500px;
+}
+.About-content h1{
+    font-family:Ramaraja;
+    font-size: 35px;
+    font-weight: 600;
+    color: #492214;
+    margin: 20px 0px;
+
+}
+.About-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.About-content .btn{
+    padding:10px 30px 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #492214;
+    border-radius: 5px;
+     background: #E8D2C1;
+     margin: 20px 0px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     margin: 30px 0px;
+     width: 150px;
+     
+}
+.About-content .btn:hover{
+    color: #fff;
+    background-color:#492214;
+}
+.service{
+    background-color: #FAFCF9;
+    height: 700px;
+}
+.service-img{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+}
+.service-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 500px;
+}
+.service-content h1{
+    font-family:Ramaraja;
+    font-size: 35px;
+    font-weight: 600;
+    color: #492214;
+}
+.service-content h2{
+    font-family:Ramaraja;
+    font-size: 35px;
+    font-weight: 600;
+    color: #492214;
+    margin-bottom: 20px;
+}
+.service-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.service-content .btn{
+    padding:10px 30px 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #492214;
+    border-radius: 5px;
+     background: #E8D2C1;
+     margin: 20px 0px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     margin: 20px 0px;
+     width: 160px;
+     
+}
+.service-content .btn:hover{
+    color: #fff;
+    background-color:#492214;
+}
+.asphat{
+    background: url('images/IMMG\ 1.jpg') no-repeat center;
+    background-size: cover;
+    height: 200px;
+
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0px;
+}
+.disply{
+    display: flex;
+    flex-direction: column;
+}
+.asphat_wood {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+
+}
+.asphat_wood h1{
+    font-size: 40px;
+    font-family: Ramaraja;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px;
+    
+}
+.asphat_wood p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+.asphat_wood .btn{
+    font-size: 16px;
+   padding: 10px 30px 10px 30px;
+   border: 1px solid #fff;
+   border-radius: 5px;
+   color: #ffff;
+   margin: 20px;
+}
+.news-section{
+background-color:#F5F5F5 ;
+}
+.news-section h1{
+    font-size: 35px;
+    font-family: Ramaraja;
+    font-weight: 600;
+    color:#492214;
+
+    margin: 10px;
+}
+.news-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 20px;
+
+}
+.news-section a input{
+    color:  #727272;
+    max-width: 900px;
+    width: 500px;
+    padding: 10px;
+    height: 44px;
+  
+}
+.news-section a button{
+    background-color: #492214;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+}
+footer{
+    background-color: #492214;
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    flex-basis: 40%;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 15%;
+   
+}
+.col ul li a{
+    color: #ffff;
+    font-weight: 400;
+}
+.footer-bottam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8D2C1;
+    height: 56px;
+}
+.footer-bottam p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
